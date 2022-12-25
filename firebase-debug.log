@@ -1,0 +1,330 @@
+[debug] [2022-12-24T14:29:20.471Z] ----------------------------------------------------------------------
+[debug] [2022-12-24T14:29:20.474Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\karra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2022-12-24T14:29:20.475Z] CLI Version:   11.19.0
+[debug] [2022-12-24T14:29:20.475Z] Platform:      win32
+[debug] [2022-12-24T14:29:20.475Z] Node Version:  v16.18.0
+[debug] [2022-12-24T14:29:20.477Z] Time:          Sat Dec 24 2022 15:29:20 GMT+0100 (GMT+01:00)
+[debug] [2022-12-24T14:29:20.477Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-24T14:29:20.625Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-24T14:29:20.625Z] > authorizing via signed-in user (karrassihamza0508@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2022-12-24T14:29:20.642Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-24T14:29:20.643Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-12-24T14:29:20.660Z] [hub] writing locator at C:\Users\karra\AppData\Local\Temp\hub-clone-2ad8d.json
+[debug] [2022-12-24T14:29:20.716Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-24T14:29:20.717Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-24T14:29:20.717Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-12-24T14:29:20.764Z] defaultcredentials: writing to file C:\Users\karra\AppData\Roaming\firebase\karrassihamza0508_gmail_com_application_default_credentials.json
+[debug] [2022-12-24T14:29:20.769Z] Setting GAC to C:\Users\karra\AppData\Roaming\firebase\karrassihamza0508_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\karra\\AppData\\Roaming\\firebase\\karrassihamza0508_gmail_com_application_default_credentials.json"}}
+[debug] [2022-12-24T14:29:20.772Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ad8d/adminSdkConfig [none]
+[debug] [2022-12-24T14:29:22.413Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ad8d/adminSdkConfig 200
+[debug] [2022-12-24T14:29:22.413Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ad8d/adminSdkConfig {"projectId":"clone-2ad8d","databaseURL":"https://clone-2ad8d-default-rtdb.firebaseio.com","storageBucket":"clone-2ad8d.appspot.com"}
+[info] i  ui: downloading ui-v1.11.1.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.11.1.zip..."}}
+[debug] [2022-12-24T14:29:22.458Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip 
+[debug] [2022-12-24T14:29:23.052Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip 200
+[debug] [2022-12-24T14:29:23.053Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip [stream]
+[debug] [2022-12-24T14:29:33.302Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-12-24T14:29:33.302Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-12-24T14:29:33.302Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\karra\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\karra\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-12-24T14:29:33.517Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-12-24T14:29:33.518Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\karra\Music\amazon store\my-amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\karra\\Music\\amazon store\\my-amazon\\functions\" for Cloud Functions..."}}
+[debug] [2022-12-24T14:29:33.575Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-12-24T14:29:36.152Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^11.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-24T14:29:36.152Z] Building nodejs source
+[debug] [2022-12-24T14:29:36.154Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-24T14:29:36.694Z] Serving at port 9005
+
+[debug] [2022-12-24T14:29:36.945Z] Got response from /__/functions.yaml Failed to generate manifest from function source: TypeError: app.use is not a function
+[debug] [2022-12-24T14:29:36.950Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 60:
+     ...  from function source: TypeError: app.use is not a function
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: TypeError: app.use is not a function\n\u0000","position":59,"line":0,"column":59},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 60:\n     ...  from function source: TypeError: app.use is not a function\n                                         ^"}
+[debug] [2022-12-24T14:29:36.960Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: TypeError: app.use is not a function {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: TypeError: app.use is not a function"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-12-24T14:30:59.414Z] File C:\Users\karra\Music\amazon store\my-amazon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\karra\\Music\\amazon store\\my-amazon\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-12-24T14:31:00.427Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-12-24T14:31:04.329Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^11.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-24T14:31:04.330Z] Building nodejs source
+[debug] [2022-12-24T14:31:04.337Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-24T14:31:04.821Z] Serving at port 9005
+
+[debug] [2022-12-24T14:31:05.037Z] Got response from /__/functions.yaml Failed to generate manifest from function source: TypeError: app.use is not a function
+[debug] [2022-12-24T14:31:05.037Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 60:
+     ...  from function source: TypeError: app.use is not a function
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: TypeError: app.use is not a function\n\u0000","position":59,"line":0,"column":59},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 60:\n     ...  from function source: TypeError: app.use is not a function\n                                         ^"}
+[debug] [2022-12-24T14:31:05.055Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: TypeError: app.use is not a function {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: TypeError: app.use is not a function"}}
+[debug] [2022-12-24T14:49:18.426Z] ----------------------------------------------------------------------
+[debug] [2022-12-24T14:49:18.429Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\karra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2022-12-24T14:49:18.430Z] CLI Version:   11.19.0
+[debug] [2022-12-24T14:49:18.430Z] Platform:      win32
+[debug] [2022-12-24T14:49:18.430Z] Node Version:  v16.18.0
+[debug] [2022-12-24T14:49:18.431Z] Time:          Sat Dec 24 2022 15:49:18 GMT+0100 (GMT+01:00)
+[debug] [2022-12-24T14:49:18.431Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-24T14:49:18.555Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-24T14:49:18.555Z] > authorizing via signed-in user (karrassihamza0508@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2022-12-24T14:49:18.574Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2022-12-24T14:49:18.578Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-2ad8d. This may result in unexpected behavior. 
+[debug] [2022-12-24T14:49:18.597Z] [hub] writing locator at C:\Users\karra\AppData\Local\Temp\hub-clone-2ad8d.json
+[debug] [2022-12-24T14:49:18.676Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-24T14:49:18.677Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-24T14:49:18.677Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-12-24T14:49:18.715Z] defaultcredentials: writing to file C:\Users\karra\AppData\Roaming\firebase\karrassihamza0508_gmail_com_application_default_credentials.json
+[debug] [2022-12-24T14:49:18.724Z] Setting GAC to C:\Users\karra\AppData\Roaming\firebase\karrassihamza0508_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\karra\\AppData\\Roaming\\firebase\\karrassihamza0508_gmail_com_application_default_credentials.json"}}
+[debug] [2022-12-24T14:49:18.729Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ad8d/adminSdkConfig [none]
+[debug] [2022-12-24T14:49:19.310Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ad8d/adminSdkConfig 200
+[debug] [2022-12-24T14:49:19.311Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ad8d/adminSdkConfig {"projectId":"clone-2ad8d","databaseURL":"https://clone-2ad8d-default-rtdb.firebaseio.com","storageBucket":"clone-2ad8d.appspot.com"}
+[debug] [2022-12-24T14:49:19.348Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-12-24T14:49:19.348Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-12-24T14:49:19.348Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\karra\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\karra\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-12-24T14:49:19.563Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2022-12-24T14:49:19.564Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\karra\Music\amazon store\my-amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\karra\\Music\\amazon store\\my-amazon\\functions\" for Cloud Functions..."}}
+[debug] [2022-12-24T14:49:19.626Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-12-24T14:49:22.893Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^11.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-24T14:49:22.894Z] Building nodejs source
+[debug] [2022-12-24T14:49:22.896Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-24T14:49:23.346Z] Serving at port 9005
+
+[debug] [2022-12-24T14:49:23.555Z] Got response from /__/functions.yaml Failed to generate manifest from function source: TypeError: app.use is not a function
+[debug] [2022-12-24T14:49:23.560Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 60:
+     ...  from function source: TypeError: app.use is not a function
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: TypeError: app.use is not a function\n\u0000","position":59,"line":0,"column":59},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 60:\n     ...  from function source: TypeError: app.use is not a function\n                                         ^"}
+[debug] [2022-12-24T14:49:23.570Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: TypeError: app.use is not a function {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: TypeError: app.use is not a function"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-12-24T15:11:25.875Z] ----------------------------------------------------------------------
+[debug] [2022-12-24T15:11:25.878Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\karra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2022-12-24T15:11:25.878Z] CLI Version:   11.19.0
+[debug] [2022-12-24T15:11:25.878Z] Platform:      win32
+[debug] [2022-12-24T15:11:25.879Z] Node Version:  v16.18.0
+[debug] [2022-12-24T15:11:25.880Z] Time:          Sat Dec 24 2022 16:11:25 GMT+0100 (GMT+01:00)
+[debug] [2022-12-24T15:11:25.880Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-24T15:11:26.006Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-24T15:11:26.007Z] > authorizing via signed-in user (karrassihamza0508@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2022-12-24T15:11:26.027Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2022-12-24T15:11:26.030Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-2ad8d. This may result in unexpected behavior. 
+[debug] [2022-12-24T15:11:26.049Z] [hub] writing locator at C:\Users\karra\AppData\Local\Temp\hub-clone-2ad8d.json
+[debug] [2022-12-24T15:11:26.161Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-24T15:11:26.162Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-24T15:11:26.162Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-12-24T15:11:26.214Z] defaultcredentials: writing to file C:\Users\karra\AppData\Roaming\firebase\karrassihamza0508_gmail_com_application_default_credentials.json
+[debug] [2022-12-24T15:11:26.223Z] Setting GAC to C:\Users\karra\AppData\Roaming\firebase\karrassihamza0508_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\karra\\AppData\\Roaming\\firebase\\karrassihamza0508_gmail_com_application_default_credentials.json"}}
+[debug] [2022-12-24T15:11:26.226Z] > refreshing access token with scopes: []
+[debug] [2022-12-24T15:11:26.229Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-24T15:11:26.230Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-24T15:11:47.319Z] Failed to get Admin SDK config for clone-2ad8d, falling back to cacheFailed to get Admin SDK for Firebase project clone-2ad8d. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project clone-2ad8d. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"exit":1,"message":"Authentication Error: Your credentials are no longer valid. Please run \u001b[1mfirebase login --reauth\u001b[22m\n\nFor CI servers and headless environments, generate a new token with \u001b[1mfirebase login:ci\u001b[22m","status":500},"status":500}
+[debug] [2022-12-24T15:11:47.370Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-12-24T15:11:47.371Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-12-24T15:11:47.371Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\karra\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\karra\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-12-24T15:11:47.601Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2022-12-24T15:11:47.601Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\karra\Music\amazon store\my-amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\karra\\Music\\amazon store\\my-amazon\\functions\" for Cloud Functions..."}}
+[debug] [2022-12-24T15:11:47.676Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-12-24T15:11:49.721Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^11.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-24T15:11:49.722Z] Building nodejs source
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2022-12-24T15:11:49.728Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-24T15:11:50.205Z] Serving at port 9005
+
+[debug] [2022-12-24T15:11:50.398Z] Got response from /__/functions.yaml Failed to generate manifest from function source: TypeError: app.use is not a function
+[debug] [2022-12-24T15:11:50.404Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 60:
+     ...  from function source: TypeError: app.use is not a function
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: TypeError: app.use is not a function\n\u0000","position":59,"line":0,"column":59},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 60:\n     ...  from function source: TypeError: app.use is not a function\n                                         ^"}
+[debug] [2022-12-24T15:11:50.414Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: TypeError: app.use is not a function {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: TypeError: app.use is not a function"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
